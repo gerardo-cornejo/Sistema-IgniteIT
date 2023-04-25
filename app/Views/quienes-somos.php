@@ -25,9 +25,12 @@
         <div class="col-md-6 d-flex flex-column texto-centrado">
             <label class="h1" for="">¿Quiénes somos?</label>
             <p class="text pt-2 pb-2">
-                <input type="hidden" value="¿por qué existe?">
-                Somos jóvenes profesionales con amplias capacidades tecnológicas dispuestos a crear o mejorar soluciones
-                que satisgagan las necesidades del país
+                En Ignite IT, somos un equipo altamente capacitado y apasionado por el desarrollo de
+                software innovador y de alta calidad. Trabajamos en colaboración con nuestros clientes para crear
+                soluciones a medida que mejoren su desempeño empresarial y les brinden una ventaja competitiva en su
+                industria. Estamos comprometidos con la mejora continua y la innovación constante para estar siempre a
+                la vanguardia del desarrollo de software.
+
             </p>
 
         </div>
@@ -49,8 +52,9 @@
             <p class="text pt-2 pb-2">
                 <input type="hidden"
                     value=" dónde quieres llegar? ¿Cuáles son los objetivos permanentes de la organización?">
-                Generar un valor agregado en nuestra sociedad, incluyendo al cliente en el proceso de desarrollo, con la
-                finalidad de crear soluciones que puedan maximizar la satisfacción con nuestro producto
+                Ayudamos a nuestros clientes a mejorar su desempeño empresarial mediante el desarrollo de software
+                innovador y de alta calidad, creado por nuestro equipo altamente creativo, inteligente y
+                tecnológicamente capacitado.
             </p>
 
         </div>
@@ -63,14 +67,14 @@
         <div class="col-md-6 d-flex flex-column texto-centrado">
             <label class="h1" for="">Nuestra visión</label>
             <p class="text pt-2 pb-2">
-                Somos jóvenes profesionales con amplias capacidades tecnológicas dispuestos a crear o mejorar soluciones
-                que satisgagan las necesidades del país
+                Ser la empresa líder en el desarrollo de software innovador y eficiente, que satisfaga las necesidades
+                de nuestros clientes y mejore su rendimiento empresarial.
             </p>
 
         </div>
         <div class="col-md-6">
             <img class="w-100"
-                src="https://img.freepik.com/vector-gratis/ilustracion-concepto-codigo-binario_114360-6578.jpg" alt="">
+                src="https://img.freepik.com/foto-gratis/persona-trabajando-html-computadora_23-2150038840.jpg" alt="">
         </div>
     </div>
 </div>
