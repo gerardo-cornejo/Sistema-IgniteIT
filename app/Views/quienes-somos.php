@@ -7,12 +7,26 @@
         font-size: 18pt;
     }
 
+    .titulo {
+        font-size: 2.5rem;
+    }
+
     .texto-centrado {
         display: -ms-flexbox !important;
         display: flex !important;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .text {
+            font-size: 10pt;
+        }
+
+        .titulo {
+            font-size: 20pt !important;
+        }
     }
 </style>
 
@@ -22,8 +36,8 @@
 <?= $this->section('content') ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-6 d-flex flex-column texto-centrado">
-            <label class="h1" for="">¿Quiénes somos?</label>
+        <div class="col-6 d-flex flex-column texto-centrado">
+            <label class="h1 titulo" for="">¿Quiénes somos?</label>
             <p class="text pt-2 pb-2">
                 En Ignite IT, somos un equipo altamente capacitado y apasionado por el desarrollo de
                 software innovador y de alta calidad. Trabajamos en colaboración con nuestros clientes para crear
@@ -34,21 +48,21 @@
             </p>
 
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
             <img class="w-100"
                 src="https://img.freepik.com/vector-gratis/ilustracion-concepto-codigo-binario_114360-6578.jpg" alt="">
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container pb-5">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-6">
             <img class="w-100"
                 src="https://img.freepik.com/vector-gratis/ilustracion-concepto-programador_114360-2217.jpg" alt="">
         </div>
-        <div class="col-md-6 d-flex flex-column texto-centrado">
-            <label class="h1" for="">Nuestra misión</label>
+        <div class="col-6 d-flex flex-column texto-centrado">
+            <label class="h1 titulo" for="">Nuestra misión</label>
             <p class="text pt-2 pb-2">
                 <input type="hidden"
                     value=" dónde quieres llegar? ¿Cuáles son los objetivos permanentes de la organización?">
@@ -64,15 +78,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 d-flex flex-column texto-centrado">
-            <label class="h1" for="">Nuestra visión</label>
+        <div class="col-6 d-flex flex-column texto-centrado">
+            <label class="h1 titulo" for="">Nuestra visión</label>
             <p class="text pt-2 pb-2">
                 Ser la empresa líder en el desarrollo de software innovador y eficiente, que satisfaga las necesidades
                 de nuestros clientes y mejore su rendimiento empresarial.
             </p>
 
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
             <img class="w-100"
                 src="https://img.freepik.com/foto-gratis/persona-trabajando-html-computadora_23-2150038840.jpg" alt="">
         </div>
